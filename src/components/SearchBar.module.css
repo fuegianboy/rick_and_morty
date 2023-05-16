@@ -1,0 +1,18 @@
+.divSearchBar {
+    background-color: lightseagreen;
+    color: blue;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 15px 
+
+}
+
+.button {
+    color: rgb(205, 191, 118);
+    border-radius: 10px;
+}
+.input {
+    color: rgb(83, 157, 134);
+    margin: 10px; 
+    border-radius: 10px;
+}

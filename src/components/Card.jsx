@@ -1,10 +1,10 @@
 import React from 'react';
-
+import estilos from "./Card.module.css";
 
 export default function Card(props) {
    
    return (
-      <div>
+      <div className={estilos.divCard}>
          <button onClick={props.onClose }>X</button>
          <h2>{ props.name }</h2>
          <h2>{ props.status }</h2>

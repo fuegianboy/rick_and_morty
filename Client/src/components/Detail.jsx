@@ -7,7 +7,7 @@ import { useState, useEffect} from "react"
 
 export default function Detail(props) {
     const {id} = useParams()
-    const [character, setCharacter] = useState({})
+    const [character, setCharacter] = useState({} )
 
 useEffect(() => {
     // axios(`https://rickandmortyapi.com/api/character/${id}`).then(({ data }) => {

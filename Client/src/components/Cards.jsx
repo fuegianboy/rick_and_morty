@@ -9,7 +9,7 @@ export default function Cards(props) {
    return (
       <div className={estilos.divCard} style={{ display: 'flex' }}> 
  {props.characters.map((caracter,index) => (
-            <div  key={index}>
+            <div  key={index} >
                <Card
                   id={caracter.id}
                   key={caracter.id}
